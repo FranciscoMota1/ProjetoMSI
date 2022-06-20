@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AdicionarStock">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="904" height="704"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="acb63" binding="painelAdicionarStock" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <minimumSize width="900" height="700"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1e035" class="javax.swing.JButton" binding="btnCancelar">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="140" height="25"/>
+                <maximum-size width="140" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <label value="Cancelar"/>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+          <grid id="6057a" binding="painelButtons" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="eaf0a" class="javax.swing.JLabel" binding="labelProduto">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="49" height="40"/>
+                  </grid>
+                  <gridbag top="70" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <labelFor value="7938f"/>
+                  <name value=""/>
+                  <text value="Produto"/>
+                </properties>
+              </component>
+              <component id="d4df7" class="javax.swing.JLabel" binding="labelData">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="49" height="40"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <labelFor value="d7965"/>
+                  <name value=""/>
+                  <text value="Data"/>
+                </properties>
+              </component>
+              <component id="4ff96" class="javax.swing.JLabel" binding="labelLote">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="49" height="40"/>
+                  </grid>
+                  <gridbag top="50" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <labelFor value="5b383"/>
+                  <name value=""/>
+                  <text value="Lote"/>
+                </properties>
+              </component>
+              <component id="dc9ed" class="javax.swing.JLabel" binding="labelValidade">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="49" height="40"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <labelFor value="ae839"/>
+                  <name value=""/>
+                  <text value="Validade"/>
+                </properties>
+              </component>
+              <component id="b8628" class="javax.swing.JLabel" binding="labelQuantidade">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="49" height="40"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="20" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <labelFor value="f4103"/>
+                  <name value=""/>
+                  <text value="Quantidade"/>
+                </properties>
+              </component>
+              <component id="7938f" class="javax.swing.JTextField" binding="produtoTextField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                  <gridbag top="70" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font size="16"/>
+                </properties>
+              </component>
+              <component id="d7965" class="javax.swing.JTextField" binding="dataTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="16"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <minimumSize width="300" height="30"/>
+                  <preferredSize width="300" height="30"/>
+                </properties>
+              </component>
+              <component id="5b383" class="javax.swing.JTextField" binding="loteTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                  <gridbag top="50" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="16"/>
+                </properties>
+              </component>
+              <component id="ae839" class="javax.swing.JTextField" binding="validadeTextField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="16"/>
+                  <toolTipText value="Insira o preço do produto"/>
+                </properties>
+              </component>
+              <component id="f4103" class="javax.swing.JTextField" binding="quantidadeTextField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="30"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="16"/>
+                  <toolTipText value="Insira o preço do produto"/>
+                </properties>
+              </component>
+              <component id="5e6ab" class="javax.swing.JComboBox" binding="unidadeComboBox">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="100" height="30"/>
+                  </grid>
+                  <gridbag top="40" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <font size="16"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="71b34" class="javax.swing.JButton" binding="btnRegistar">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="140" height="25"/>
+              </grid>
+            </constraints>
+            <properties>
+              <actionCommand value="Registar"/>
+              <font size="18"/>
+              <label value="Registar"/>
+              <text value="Registar"/>
+            </properties>
+          </component>
+          <component id="5cf9a" class="javax.swing.JLabel" binding="gumboLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="48" style="1"/>
+              <text value="Gumbo"/>
+            </properties>
+          </component>
+          <component id="60f38" class="javax.swing.JLabel" binding="topLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="24"/>
+              <text value="Registar Stock"/>
+            </properties>
+          </component>
+          <hspacer id="14fd2">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
